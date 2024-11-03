@@ -58,30 +58,30 @@ partial class CalculatorForm
         this.BackColor = System.Drawing.Color.FromArgb(32, 32, 32);
         this.Text = "Calculator";
 
-        CreateButton(ref buttonEquals, "=", 154, 257, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonOne, "1", 2, 206, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonTwo, "2", 78, 206, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonThree, "3", 154, 206, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonFour, "4", 2, 155, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonFive, "5", 78, 155, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonSix, "6", 154, 155, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonSeven, "7", 2, 104, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonEight, "8", 78, 104, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonNine, "9", 154, 104, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonZero, "0", 78, 257, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonAdd, "+", 230, 257, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonSubstract, "-", 230, 206, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonMultiply, "*", 230, 155, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonDivide, "/", 230, 104, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonModulus, "%", 230, 53, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonNegative, "(-)", 154, 53, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonComma, ",", 2, 257, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonRemoveLast, "<-", 78, 53, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
-        CreateButton(ref buttonClear, "C", 2, 53, 75, 50, "Segoe UI Semilight", 16, 50, 50, 50);
+        CreateButton(ref buttonEquals, "=", 154, 257, 75, 50, "Segoe UI Semilight", 16, 118, 185, 237);
+        CreateButton(ref buttonOne, "1", 2, 206, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonTwo, "2", 78, 206, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonThree, "3", 154, 206, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonFour, "4", 2, 155, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonFive, "5", 78, 155, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonSix, "6", 154, 155, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonSeven, "7", 2, 104, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonEight, "8", 78, 104, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonNine, "9", 154, 104, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonZero, "0", 78, 257, 75, 50, "Segoe UI Semilight", 16, 59, 59, 59);
+        CreateButton(ref buttonAdd, "+", 230, 257, 75, 50, "Segoe UI Semilight", 16, 40, 40, 40);
+        CreateButton(ref buttonSubstract, "-", 230, 206, 75, 50, "Segoe UI Semilight", 16, 40, 40, 40);
+        CreateButton(ref buttonMultiply, "*", 230, 155, 75, 50, "Segoe UI Semilight", 16, 40, 40, 40);
+        CreateButton(ref buttonDivide, "/", 230, 104, 75, 50, "Segoe UI Semilight", 16, 40, 40, 40);
+        CreateButton(ref buttonModulus, "%", 230, 53, 75, 50, "Segoe UI Semilight", 16, 40, 40, 40);
+        CreateButton(ref buttonNegative, "(-)", 154, 53, 75, 50, "Segoe UI Semilight", 16, 40, 40, 40);
+        CreateButton(ref buttonComma, ",", 2, 257, 75, 50, "Segoe UI Semilight", 16, 40, 40, 40);
+        CreateButton(ref buttonRemoveLast, "<-", 78, 53, 75, 50, "Segoe UI Semilight", 16, 40, 40, 40);
+        CreateButton(ref buttonClear, "C", 2, 53, 75, 50, "Segoe UI Semilight", 16, 40, 40, 40);
 
         this.calculatorDisplay = new System.Windows.Forms.TextBox();
-        this.calculatorDisplay.Location = new System.Drawing.Point(2, 2);
-        this.calculatorDisplay.Size = new System.Drawing.Size(303, 100); // Only adjusts width
+        this.calculatorDisplay.Location = new System.Drawing.Point(3, 4);
+        this.calculatorDisplay.Size = new System.Drawing.Size(301, 100); // Only adjusts width
         this.calculatorDisplay.BackColor = System.Drawing.Color.FromArgb(59, 59, 59);
         this.calculatorDisplay.ForeColor = System.Drawing.Color.White;
         this.calculatorDisplay.Font = new Font("Segoe UI Semilight", 26);
